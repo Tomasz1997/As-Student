@@ -1,0 +1,54 @@
+﻿  Game.cpp
+  GameBoard.cpp
+C:\Users\JA\Desktop\Project22\Projekt22\GameBoard.cpp(23,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\JA\Desktop\Project22\Projekt22\GameBoard.cpp(32,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\JA\Desktop\Project22\Projekt22\GameBoard.cpp(53,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\JA\Desktop\Project22\Projekt22\GameBoard.cpp(61,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\JA\Desktop\Project22\Projekt22\GameBoard.cpp(70,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  GameButton.cpp
+C:\Users\JA\Desktop\Project22\Projekt22\GameButton.cpp(5,35): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\JA\Desktop\Project22\Projekt22\GameButton.cpp(5,24): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\JA\Desktop\Project22\Projekt22\GameButton.cpp(6,40): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\JA\Desktop\Project22\Projekt22\GameButton.cpp(6,33): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+  MainButton.cpp
+C:\Users\JA\Desktop\Project22\Projekt22\MainButton.cpp(10,35): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\JA\Desktop\Project22\Projekt22\MainButton.cpp(10,24): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\JA\Desktop\Project22\Projekt22\MainButton.cpp(11,40): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\JA\Desktop\Project22\Projekt22\MainButton.cpp(11,33): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+  Menu.cpp
+C:\Users\JA\Desktop\Project22\Projekt22\Menu.cpp(22,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\JA\Desktop\Project22\Projekt22\Menu.cpp(31,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  MenuButton.cpp
+C:\Users\JA\Desktop\Project22\Projekt22\MenuButton.cpp(18,98): warning C4244: "argument": konwersja z "unsigned int" do "float", możliwa utrata danych
+C:\Users\JA\Desktop\Project22\Projekt22\MenuButton.cpp(18,35): warning C4244: "argument": konwersja z "unsigned int" do "float", możliwa utrata danych
+C:\Users\JA\Desktop\Project22\Projekt22\MenuButton.cpp(20,59): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\JA\Desktop\Project22\Projekt22\MenuButton.cpp(20,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\JA\Desktop\Project22\Projekt22\MenuButton.cpp(21,40): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\JA\Desktop\Project22\Projekt22\MenuButton.cpp(21,33): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+  Źródło.cpp
+  Generowanie kodu...
+  Projekt22.vcxproj -> C:\Users\JA\Desktop\Project22\Debug\Projekt22.exe
