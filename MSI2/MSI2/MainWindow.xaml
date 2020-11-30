@@ -1,0 +1,34 @@
+﻿<Window x:Class="MSI2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MSI2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    <Grid Background="WhiteSmoke">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*" />
+            <RowDefinition Height="10*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <InkCanvas Name="Paper" Grid.Column="0" Grid.Row="0" Background="Orange" Margin="20" />
+        <Border Grid.Column="1" Grid.Row="0" Background="Chocolate" Margin="20">
+            <TextBlock Name="PaperResult" Text="" FontSize="300" Foreground="Orange" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+
+        <StackPanel Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal">
+            <Button Name="BtnClearPaper" Content="Wyczyść kartkę" Background="Chocolate" Height="40" Width="100" VerticalContentAlignment="Center" Margin="20 0 0 0" Foreground="White" Click="BtnClearPaper_Click"/>
+            <Button Name="BtnConvertToDigits" Content="Konvertuj" Background="Chocolate" Height="40" Width="100" VerticalContentAlignment="Center" Margin="20 0 0 0" Foreground="White" Click="BtnConvertToDigits_Click"/>
+            <Button Name="BtnDetectDigit" Content="Odczytaj cyfre" Background="Chocolate" Height="40" Width="100" VerticalContentAlignment="Center" Margin="20 0 0 0" Foreground="White" Click="BtnDetectDigit_Click"/>
+            <Button Name="BtnTrain" Content="Trenuj sieć" Background="Chocolate" Height="40" Width="100" VerticalContentAlignment="Center" Margin="20 0 0 0" Foreground="White" Click="BtnTrain_Click"/>
+            <TextBox Name="TxtBoxDigitTrain" BorderBrush="Chocolate" Background="Bisque" Foreground="Black" Height="40" Width="20" VerticalContentAlignment="Center" Margin="0 0 0 0"/>
+            <Button Name="BtnSaveDigitToTest" Content="Zpisz cyfre do testów" Background="Chocolate" Height="40" Width="130" VerticalContentAlignment="Center" Margin="20 0 0 0" Foreground="White" Click="BtnSaveDigitToTest_Click"/>
+            <TextBox Name="TxtBoxSaveDigitToTest" BorderBrush="Chocolate" Background="Bisque" Foreground="Black" Height="40" Width="20" VerticalContentAlignment="Center" Margin="0 0 0 0"/>
+        </StackPanel>
+    </Grid>
+</Window>
