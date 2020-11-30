@@ -1,0 +1,49 @@
+<resources>
+    <!--Application controls string-->
+    <string name="app_name">Doradca zawodowy</string>
+
+    <string name="notSelected">Nie wybrano</string>
+    <string name="extrovert">Ekstrowertyk</string>
+    <string name="introvert">Introwertyk</string>
+    <string name="ambivalent">Ambiwalent</string>
+
+    <string name="physical">Aktywność fizyczna</string>
+    <string name="mental">Aktywność umysłowa</string>
+    <string name="noMatter">Nie ma znaczenia</string>
+
+    <string name="personalityMessage">Podaj swoją osobowość:</string>
+    <string-array name="selectPersonality">
+        <item>@string/notSelected</item>
+        <item>@string/extrovert</item>
+        <item>@string/introvert</item>
+        <item>@string/ambivalent</item>
+    </string-array>
+
+    <string name="activityMessage" translatable="false">Podaj aktywność którą preferujesz w pracy:</string>
+    <string-array name="selectActivity">
+        <item>@string/notSelected</item>
+        <item>@string/physical</item>
+        <item>@string/mental</item>
+        <item>@string/noMatter</item>
+    </string-array>
+
+    <string name="repeatableMessage" translatable="false">Czy lubisz powtarzalne czynności?</string>
+    <string name="confirm" translatable="false">Tak</string>
+    <string name="deny" translatable="false">Nie</string>
+    <string name="irrelevant" translatable="false">Nie ważne</string>
+
+    <string name="challengeMessage" translatable="false">Czy lubisz wyzwania w pracy?</string>
+
+    <string name="creativityMessage" translatable="false">Czy chcesz być kreatywny w pracy?</string>
+
+    <string name="findProfession">Znajdź zawód</string>
+    <string name="errorMessage">Nie wszystkie opcje zostały wybrane!</string>
+
+    <!--Names of professions-->
+    <string name="gravedigger">Grabarz</string>
+    <string name="doctor">Lekarz</string>
+    <string name="lawyer">Prawnik</string>
+    <string name="bricklayer">Murarz</string>
+    <string name="teacher">Nauczyciel</string>
+
+</resources>

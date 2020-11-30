@@ -1,0 +1,48 @@
+<resources>
+    <!--Application controls string-->
+    <string name="app_name">Career counselor</string>
+
+    <string name="notSelected">Not selected</string>
+    <string name="extrovert">Extrovert</string>
+    <string name="introvert">Introvert</string>
+    <string name="ambivalent">Ambivalent</string>
+
+    <string name="physical">Physical activity</string>
+    <string name="mental">Mental activity</string>
+    <string name="noMatter">Does not matter</string>
+
+    <string name="personalityMessage">Enter your personality:</string>
+    <string-array name="selectPersonality">
+        <item>@string/notSelected</item>
+        <item>@string/extrovert</item>
+        <item>@string/introvert</item>
+        <item>@string/ambivalent</item>
+    </string-array>
+
+    <string name="activityMessage">Enter activity would you like at work:</string>
+    <string-array name="selectActivity">
+        <item>@string/notSelected</item>
+        <item>@string/physical</item>
+        <item>@string/mental</item>
+        <item>@string/noMatter</item>
+    </string-array>
+
+    <string name="repeatableMessage">Do you like repeatable tasks?</string>
+    <string name="confirm" translatable="false">Yes</string>
+    <string name="deny" translatable="false">No</string>
+    <string name="irrelevant" translatable="false">No matter</string>
+
+    <string name="challengeMessage" translatable="false">Do you like challenge at work?</string>
+
+    <string name="creativityMessage" translatable="false">Do you want be creative at work?</string>
+
+    <string name="findProfession">Find a profession</string>
+    <string name="errorMessage">Not all options selected!</string>
+
+    <!--Names of professions-->
+    <string name="gravedigger">Gravedigger</string>
+    <string name="doctor">Doctor</string>
+    <string name="lawyer">Lawyer</string>
+    <string name="bricklayer">Bricklayer</string>
+    <string name="teacher">Teacher</string>
+</resources>

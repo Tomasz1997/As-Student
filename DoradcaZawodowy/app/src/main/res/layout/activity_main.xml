@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!--Select personality-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/personalityMessage"
+        android:textColor="@color/black"/>
+    <Spinner
+        android:id="@+id/selectPersonality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:entries="@array/selectPersonality">
+    </Spinner>
+
+    <!--Select activity-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activityMessage"
+        android:textColor="@color/black"/>
+    <Spinner
+        android:id="@+id/selectActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:entries="@array/selectActivity">
+    </Spinner>
+
+    <!--Is it repeatable-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/repeatableMessage"
+        android:textColor="@color/black"/>
+    <RadioGroup
+        android:id="@+id/isReapetable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deny"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/irrelevant"/>
+    </RadioGroup>
+
+    <!--Is it challenge-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/challengeMessage"
+        android:textColor="@color/black"/>
+    <RadioGroup
+        android:id="@+id/isChallenge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deny"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/irrelevant"/>
+    </RadioGroup>
+
+    <!--Is it creativity-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/creativityMessage"
+        android:textColor="@color/black"/>
+    <RadioGroup
+        android:id="@+id/isCreativity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deny"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/irrelevant"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/findProfession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/findProfession"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/teal_700"
+        android:onClick="onClickFindProfession"/>
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/errorMessage"
+        android:layout_gravity="center"
+        android:textColor="@color/red"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/listOfProfession"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
