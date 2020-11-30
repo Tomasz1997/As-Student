@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/TabHostShowTask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+        <!--<include
+            layout="@layout/commonlayout"
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="2sp"
+            android:layout_marginRight="2sp"
+            />-->
+
+        <!--        <include  layout="@layout/commonlayout" android:id="@+id/id" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ShowTask"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/TabHostAddTask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/AddTask"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/ShowTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:visibility="visible"
+            android:drawableTop="@drawable/ic_showtask"
+            android:drawableTint="@color/blue"
+            android:backgroundTint="@color/lightGray"
+
+            android:text="Button"
+            android:textAllCaps="false"
+            android:textColor="@color/blue"
+
+            android:onClick="onClickShowTask"/>
+
+        <Button
+            android:id="@+id/ShowTaskHide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:visibility="gone"
+            android:drawableTop="@drawable/ic_showtask"
+            android:drawableTint="@color/gray"
+            android:backgroundTint="@color/white"
+
+            android:text="Button"
+            android:textAllCaps="false"
+            android:textColor="@color/gray"
+
+            android:onClick="onClickShowTask"/>
+
+        <Button
+            android:id="@+id/AddTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:visibility="gone"
+            android:drawableTop="@drawable/ic_addtask"
+            android:drawableTint="@color/blue"
+            android:backgroundTint="@color/lightGray"
+
+
+            android:text="@string/AddTask"
+            android:textAllCaps="false"
+            android:textColor="@color/blue"
+
+            android:onClick="onClickAddTask" />
+
+        <Button
+            android:id="@+id/AddTaskHide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:visibility="visible"
+            android:drawableTop="@drawable/ic_addtask"
+            android:drawableTint="@color/gray"
+            android:backgroundTint="@color/white"
+
+
+            android:text="@string/AddTask"
+            android:textAllCaps="false"
+            android:textColor="@color/gray"
+
+            android:onClick="onClickAddTask" />
+
+    </LinearLayout>
+
+<!--    <com.google.android.material.tabs.TabLayout-->
+<!--        android:id="@+id/Tabs"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:paddingBottom="16dp"-->
+<!--        app:tabIconTint="@color/tab_color_selector"-->
+<!--        app:tabIndicatorColor="@color/darkBlue"-->
+<!--        app:tabSelectedTextColor="@color/darkBlue"-->
+<!--        app:tabTextColor="@color/gray">-->
+
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:icon="@drawable/ic_showtask"-->
+<!--            android:text="@string/TabShowTask" />-->
+<!--        &lt;!&ndash;Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>&ndash;&gt;-->
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:icon="@drawable/ic_addtask"-->
+<!--            android:text="@string/TabAddTask" />-->
+<!--        &lt;!&ndash;Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> &ndash;&gt;-->
+
+<!--    </com.google.android.material.tabs.TabLayout>-->
+
+</RelativeLayout>

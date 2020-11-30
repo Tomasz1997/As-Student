@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Star wars</string>
+    <string name="start">A long time ago in a galaxy far, far away ...</string>
+
+    <string name="title_activity_main2">Welcome my friend</string>
+    <string name="sayName">Say your name:</string>
+    <string name="welcome">May the force be with you</string>
+</resources>
